@@ -9,9 +9,15 @@
 
 // Add your code right below, good luck!
 
+const FirstName = "Carlos";
+const LastName = "Stevenson";
+const ThisYear = 1965;
+const LastYear = 1947;
 
+const FullName = FirstName + LastName;
+const Age = ThisYear - LastYear;
 
-
+const greeting = "Hello! My name is " + FullName + " and I am " + Age + " years old."
 
 // Do not change this
 module.exports = {
